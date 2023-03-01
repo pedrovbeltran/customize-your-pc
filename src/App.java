@@ -19,11 +19,12 @@ public class App {
     public static void main(String[] args) throws Exception {
         Computer computer = new MyPC();
 
-        HD hd = new HD(computer, 256, "SSD", 100);
-        RAM ram = new RAM(hd, 8, 100);
-        CPU cpu = new CPU(ram, 3.5, 4, "Intel", 200);
+        computer = new HD(computer, 256, "SSD", 100);
+        computer = new RAM(computer, 8, 100);
+        computer = new CPU(computer, 3.5, 4, "Intel", 200);
+        computer = new GPU(computer, 2, "Nvidia", 300);
 
-        System.out.println(cpu.getSpecs() + "\nThe final price of your PC is $" + cpu.cost());
+        System.out.println(computer.getSpecs() + "\nThe final price of your PC is $" + computer.cost());
 
     }
 }

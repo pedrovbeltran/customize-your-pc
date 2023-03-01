@@ -1,7 +1,7 @@
 package computer.components;
 import computer.*;
 
-public class Screen extends Component {
+public class Screen extends ComponentDecorator {
     private int frequencyInHz;
     private int maxResolution;
     private String type;

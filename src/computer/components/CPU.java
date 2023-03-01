@@ -1,7 +1,7 @@
 package computer.components;
 import computer.*;
 
-public class CPU extends Component {
+public class CPU extends ComponentDecorator {
     private double frequencyInGhz;
     private int cores;
     private String name;

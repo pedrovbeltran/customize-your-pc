@@ -1,7 +1,7 @@
 package computer.components;
 import computer.*;
 
-public class Battery extends Component {
+public class Battery extends ComponentDecorator {
     private int capacityInMah;
     private int cost;
     

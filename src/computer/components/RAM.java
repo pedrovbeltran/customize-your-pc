@@ -1,7 +1,7 @@
 package computer.components;
 import computer.*;
 
-public class RAM extends Component {
+public class RAM extends ComponentDecorator {
     private int capacityInGbs;
     private int cost;
     

@@ -1,7 +1,7 @@
 package computer.components;
 import computer.*;
 
-public class Camera extends Component {
+public class Camera extends ComponentDecorator {
     private int maxResolution;
     private int cost;
     

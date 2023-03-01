@@ -1,7 +1,7 @@
 package computer.components;
 import computer.*;
 
-public class IOPorts extends Component {
+public class IOPorts extends ComponentDecorator {
     private int quantity;
 	private String type;
     private int cost;

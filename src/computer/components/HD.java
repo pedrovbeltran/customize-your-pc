@@ -1,7 +1,7 @@
 package computer.components;
 import computer.*;
 
-public class HD extends Component {
+public class HD extends ComponentDecorator {
     private int capacityInGbs;
 	private String type;
     private int cost;
